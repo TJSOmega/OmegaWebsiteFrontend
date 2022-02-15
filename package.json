@@ -1,0 +1,31 @@
+{
+    "name": "jumpx",
+    "version": "1.7.0",
+    "description": "Jumpx - React Next.js AI & IT Startup Template",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "export": "next export"
+    },
+    "author": "EnvyTheme.com",
+    "license": "ISC",
+    "dependencies": {
+        "animate.css": "^4.1.1",
+        "axios": "^0.21.4",
+        "dotenv": "^14.2.0",
+        "next": "^12.0.4",
+        "nodemailer": "^6.7.1",
+        "nodemailer-sendgrid-transport": "^0.2.0",
+        "react": "^17.0.2",
+        "react-accessible-accordion": "^3.3.5",
+        "react-dom": "^17.0.2",
+        "react-modal-video": "^1.2.8",
+        "react-owl-carousel3": "^2.2.5",
+        "react-visibility-sensor": "^5.1.1",
+        "sass": "^1.43.4",
+        "sweetalert2": "^11.1.10",
+        "sweetalert2-react-content": "^4.2.0"
+    }
+}
