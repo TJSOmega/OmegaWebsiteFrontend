@@ -33,7 +33,7 @@ function Index({ services }) {
 
 export async function getStaticProps() {
 
-    const res = await fetch('http://localhost:1338/api/services')
+    const res = await fetch('https://omega-website-cils4.ondigitalocean.app/api/services')
     const data = await res.json()
     const services = data.data
 
