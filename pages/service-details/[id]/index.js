@@ -23,7 +23,7 @@ const ServiceDetails = ({ service }) => {
 
 export const getServerSideProps = async (context) => {
     const res = await fetch(
-        `https://omega-website-cils4.ondigitalocean.app/api/services/${context.params.id}`
+        `http://localhost:1338/api/services/${context.params.id}`
     )
     const service = await res.json()
 
