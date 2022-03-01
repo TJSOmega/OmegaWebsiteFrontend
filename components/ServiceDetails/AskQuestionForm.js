@@ -41,9 +41,9 @@ const AskQuestionForm = () => {
     const handleSubmit = async e => {
         e.preventDefault();
         try {
-            const url = `${baseUrl}/api/contact`;
+            const url = `https://omega-website-backend-mhbry.ondigitalocean.app/api/contact-forms`;
             const { name, email, number, subject, text } = contact;
-            const payload = { name, email, number, subject, text };
+            const payload = { data: { name, email, number, subject, text } };
             const response = await axios.post(url, payload);
             console.log(response);
             setContact(INITIAL_STATE);
@@ -57,7 +57,7 @@ const AskQuestionForm = () => {
         return (
             <div className="ask-question">
                 <h3>Ask Questions</h3>
-                <form onSubmit={handleSubmit} id="contactForm">
+                <form id="contactForm">
                     <div className="row">
                         <div className="col-lg-6 col-sm-6">
                             <div className="form-group">
@@ -90,7 +90,7 @@ const AskQuestionForm = () => {
                         </div>
 
                         <div className="col-lg-12 col-md-12">
-                            <button type="submit" className="default-btn btn-two">
+                            <button onClick={handleSubmit} type="submit" className="default-btn btn-two">
                                 <span className="label">Send Message</span>
                             </button>
                         </div>
