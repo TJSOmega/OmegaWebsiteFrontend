@@ -4,7 +4,6 @@ import Link from 'next/link';
 const Footer = ({ services }) => {
 
     let currentYear = new Date().getFullYear();
-    console.log(services)
     return (
         <>
             <footer className="footer-top-area pt-100 pb-70">
