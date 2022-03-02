@@ -33,7 +33,7 @@ function Index({ services }) {
 
 export async function getStaticProps() {
 
-    const res = await fetch('https://omega-website-backend-ii4pj.ondigitalocean.app/api/services')
+    const res = await fetch('https://omega-website-backend-ii4pj.ondigitalocean.app/back/api/services')
     const data = await res.json()
     const services = data.data
 
