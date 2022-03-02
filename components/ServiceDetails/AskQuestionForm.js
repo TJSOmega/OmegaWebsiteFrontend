@@ -41,7 +41,7 @@ const AskQuestionForm = () => {
     const handleSubmit = async e => {
         e.preventDefault();
         try {
-            const url = `https://omega-website-backend-ii4pj.ondigitalocean.app/back/api/contact-forms`;
+            const url = `https://omega-website-backend-ii4pj.ondigitalocean.app/api/contact-forms`;
             const { name, email, number, subject, text } = contact;
             const payload = { data: { name, email, number, subject, text } };
             const response = await axios.post(url, payload);

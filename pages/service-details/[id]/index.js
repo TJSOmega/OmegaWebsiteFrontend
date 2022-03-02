@@ -25,7 +25,7 @@ const ServiceDetails = ({ service }) => {
 export async function getStaticPaths() {
     
     const res = await fetch(
-        `https://omega-website-backend-ii4pj.ondigitalocean.app/back/api/services/`
+        `https://omega-website-backend-ii4pj.ondigitalocean.app/api/services/`
     )
 
     const services = await res.json()
@@ -40,7 +40,7 @@ export async function getStaticPaths() {
 
 export const getStaticProps = async (context) => {
     const res = await fetch(
-        `https://omega-website-backend-ii4pj.ondigitalocean.app/back/api/services/${context.params.id}`
+        `https://omega-website-backend-ii4pj.ondigitalocean.app/api/services/${context.params.id}`
     )
     const service = await res.json()
 
