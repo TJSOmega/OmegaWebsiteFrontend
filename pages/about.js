@@ -23,7 +23,7 @@ class About2 extends Component {
                 <WhyChooseUs />
                 {/* <MakeYourBusiness /> */}
                 {/* <Testimonials /> */}
-                <PartnerSlider />
+                {/* <PartnerSlider /> */}
                 <Footer />
             </>
         );

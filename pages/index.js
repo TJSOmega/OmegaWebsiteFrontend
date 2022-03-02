@@ -19,7 +19,7 @@ function Index({ services }) {
         <>
             <Navbar />
             <MainBanner />
-            <PartnerSlider />
+            {/* <PartnerSlider /> */}
             <About />
             <WhyChooseUs />
             <Services services={services} />
