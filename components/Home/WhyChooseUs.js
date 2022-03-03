@@ -22,7 +22,7 @@ class WhyChooseUs extends Component {
                                     </li>
                                     <li className="ml">
                                         <span>02 <i className="flaticon-shield"></i></span>
-                                        <h3>Support When you Need, it How you Need it</h3>
+                                        <h3>Support When you Need it, How you Need it</h3>
                                         <p>We are dedicated to making sure that your issues get taken care of! We travel to you, physically or remotely to take care of whatever tech needs you may have.</p>
                                     </li>
                                     <li className="ml-25">

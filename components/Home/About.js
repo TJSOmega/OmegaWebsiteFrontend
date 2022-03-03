@@ -17,7 +17,7 @@ class About extends Component {
                             <div className="about-content">
                                 <span>About Us</span>
                                 <h2>We are here to service your technology needs!</h2>
-                                <p>We specialize in fast reliable service, top level understanding of technology and how it works, and the absloute best customer service and satisfaction.</p>
+                                <p>We specialize in fast reliable service, top level understanding of technology and how it works, and the absolute best customer service and satisfaction.</p>
 
                                 <div className="row">
                                     <div className="col-lg-6 col-sm-6">
