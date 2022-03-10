@@ -7,7 +7,7 @@
         "dev": "next",
         "build": "next build",
         "start": "next start",
-        "export": "npm run build && next export"
+        "export": "npm run build && next export && mv out _static"
     },
     "author": "EnvyTheme.com",
     "license": "ISC",
