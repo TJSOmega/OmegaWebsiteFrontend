@@ -1292,7 +1292,7 @@ Arduix Nav Area Style
 
 .navbar-toggler {
   border: none;
-  background: #eee !important;
+  background: #000000 !important;
   padding: 10px;
   border-radius: 0;
 }

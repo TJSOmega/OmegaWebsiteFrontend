@@ -19,7 +19,7 @@
     width: 12px;
   }
   .navbar-area nav .navbar-nav::-webkit-scrollbar-track {
-    background: #fff;
+    background: black;
     border-radius: 30px;
   }
   .navbar-area nav .navbar-nav::-webkit-scrollbar-thumb {
