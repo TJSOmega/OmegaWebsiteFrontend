@@ -1285,14 +1285,14 @@ Arduix Nav Area Style
 }
 
 .navbar-area.is-sticky nav {
-  background-color: #000000;
+  background-color: rgb(70,70,70);
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .navbar-toggler {
   border: none;
-  background: #000000 !important;
+  background: rgb(70,70,70) !important;
   padding: 10px;
   border-radius: 0;
 }
