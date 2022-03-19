@@ -179,13 +179,13 @@ const Footer = ({ services }) => {
                             </div>
                         </div>
 
-                        <div className="col-lg-3">
+                        {/* <div className="col-lg-3">
                             <div className="designed">
                                 <p>
                                     Designed By <i className='bx bx-heart'></i> <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
                                 </p>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </footer>
