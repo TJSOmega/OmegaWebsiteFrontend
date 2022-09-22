@@ -13,6 +13,7 @@ import Faq from '../components/Home/Faq';
 import News from '../components/Common/News';
 import Footer from '../components/Layouts/Footer';
 
+
 function Index({ services }) {
 
     return (
