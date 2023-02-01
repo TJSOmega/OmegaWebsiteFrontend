@@ -19,8 +19,8 @@ class ContactInfo extends Component {
                             <div className="single-contact-info">
                                 <i className="bx bx-phone-call"></i>
                                 <h3>Call Us:</h3>
-                                <p>Tel. + 1 (760) 774-8719</p>
                                 <p>Tel. + 1 (760) 325-8990</p>
+                                <p>Tel. + 1 (760) 774-8719</p>
                             </div>
                         </div>
 
