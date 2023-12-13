@@ -131,7 +131,7 @@ const Footer = ({ services }) => {
 
                                     <li className="address">
                                         <i className="flaticon-call"></i>
-                                        <span>Phone</span>
+                                        <span>Phone 2</span>
                                         1 (442) 234-8568
                                     </li>
 
