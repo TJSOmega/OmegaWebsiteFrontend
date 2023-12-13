@@ -129,7 +129,6 @@ const Footer = ({ services }) => {
                                         1 (760) 325-8990
                                     </li>
 
-                                    <ul className="information">
                                     <li className="address">
                                         <i className="flaticon-call"></i>
                                         <span>Phone</span>
